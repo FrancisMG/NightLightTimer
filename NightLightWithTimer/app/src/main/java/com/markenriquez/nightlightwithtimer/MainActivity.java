@@ -81,9 +81,9 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer3 = MediaPlayer.create(this, R.raw.playsong);
         final VideoView mfireworkVideo = (VideoView) findViewById(R.id.fireworkVideo);
 
-        uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.vid);
+        uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.vidvid);
 
-        mfireworkVideo.setRotation(180f);
+
         mfireworkVideo.setVideoURI(uri);
         mfireworkVideo.start();
 
